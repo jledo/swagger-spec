@@ -47,6 +47,8 @@ paths:
     post:
       description: Creates a new pet in the store.  Duplicates are allowed
       operationId: addPet
+      tags:
+        - pets
       parameters:
         - $ref: 'parameters.yaml#/prueba'
       responses:
@@ -62,6 +64,8 @@ paths:
     get:
       description: Returns a user based on a single ID, if the user does not have access to the pet
       operationId: find pet by id
+      tags:
+        - pets
       parameters:
         - name: id
           in: path
@@ -81,6 +85,8 @@ paths:
     delete:
       description: deletes a single pet based on the ID supplied
       operationId: deletePet
+      tags:
+        - pets
       parameters:
         - name: id
           in: path
