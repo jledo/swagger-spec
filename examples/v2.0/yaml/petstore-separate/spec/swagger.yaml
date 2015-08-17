@@ -37,7 +37,7 @@ paths:
           schema:
             type: array
             items:
-              $ref: 'Pet.yaml'
+              $ref: 'Pet.yaml#/Pet'
         default:
           description: unexpected error
           schema:
