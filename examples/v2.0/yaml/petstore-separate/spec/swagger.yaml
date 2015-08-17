@@ -37,7 +37,7 @@ paths:
           schema:
             type: array
             items:
-              $ref: 'Pet'
+              $ref: 'Pet.yaml'
         default:
           description: unexpected error
           schema:
@@ -51,12 +51,12 @@ paths:
           description: Pet to add to the store
           required: true
           schema:
-            $ref: 'Pet'
+            $ref: 'Pet.yaml'
       responses:
         200:
           description: pet response
           schema:
-            $ref: 'Pet'
+            $ref: 'Pet.yaml'
         default:
           description: unexpected error
           schema:
