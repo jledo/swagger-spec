@@ -51,7 +51,7 @@ paths:
           description: Pet to add to the store
           required: true
           schema:
-            $ref: 'Pet.yaml'
+            $ref: 'parameters.yaml#/prueba'
       responses:
         200:
           description: pet response
