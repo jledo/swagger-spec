@@ -33,10 +33,10 @@
         "operationId": "findPets",
         "parameters": [
           {
-            "$ref": "parameters.json#/tagsParam"
+            "$ref": "https://raw.githubusercontent.com/jledo/swagger-spec/master/examples/v2.0/json/petstore-separate/spec/parameters.json#/tagsParam"
           },
           {
-            "$ref": "parameters.json#/limitsParam"
+            "$ref": "https://raw.githubusercontent.com/jledo/swagger-spec/master/examples/v2.0/json/petstore-separate/spec/parameters.json#/limitsParam"
           }
         ],
         "responses": {
@@ -45,14 +45,14 @@
             "schema": {
               "type": "array",
               "items": {
-                "$ref": "Pet.json"
+                "$ref": "https://raw.githubusercontent.com/jledo/swagger-spec/master/examples/v2.0/json/petstore-separate/spec/Pet.json"
               }
             }
           },
           "default": {
             "description": "unexpected error",
             "schema": {
-              "$ref": "../common/Error.json"
+              "$ref": "https://raw.githubusercontent.com/jledo/swagger-spec/master/examples/v2.0/json/petstore-separate/spec/../common/Error.json"
             }
           }
         }
@@ -67,7 +67,7 @@
             "description": "Pet to add to the store",
             "required": true,
             "schema": {
-              "$ref": "NewPet.json"
+              "$ref": "https://raw.githubusercontent.com/jledo/swagger-spec/master/examples/v2.0/json/petstore-separate/spec/NewPet.json"
             }
           }
         ],
@@ -75,13 +75,13 @@
           "200": {
             "description": "pet response",
             "schema": {
-              "$ref": "Pet.json"
+              "$ref": "https://raw.githubusercontent.com/jledo/swagger-spec/master/examples/v2.0/json/petstore-separate/spec/Pet.json"
             }
           },
           "default": {
             "description": "unexpected error",
             "schema": {
-              "$ref": "../common/Error.json"
+              "$ref": "https://raw.githubusercontent.com/jledo/swagger-spec/master/examples/v2.0/json/petstore-separate/spec/../common/Error.json"
             }
           }
         }
@@ -105,13 +105,13 @@
           "200": {
             "description": "pet response",
             "schema": {
-              "$ref": "Pet.json"
+              "$ref": "https://raw.githubusercontent.com/jledo/swagger-spec/master/examples/v2.0/json/petstore-separate/spec/Pet.json"
             }
           },
           "default": {
             "description": "unexpected error",
             "schema": {
-              "$ref": "../common/Error.json"
+              "$ref": "https://raw.githubusercontent.com/jledo/swagger-spec/master/examples/v2.0/json/petstore-separate/spec/../common/Error.json"
             }
           }
         }
@@ -136,7 +136,7 @@
           "default": {
             "description": "unexpected error",
             "schema": {
-              "$ref": "../common/Error.json"
+              "$ref": "https://raw.githubusercontent.com/jledo/swagger-spec/master/examples/v2.0/json/petstore-separate/spec/../common/Error.json"
             }
           }
         }
