@@ -2,7 +2,7 @@
   "type": "object",
   "allOf": [
     {
-      "$ref": "Pet.json"
+      "$ref": "https://raw.githubusercontent.com/jledo/swagger-spec/master/examples/v2.0/json/petstore-separate/spec/Pet.json"
     },
     {
       "required": [
